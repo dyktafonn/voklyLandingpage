@@ -1,8 +1,6 @@
 import React from "react";
 
-type Props = {};
-
-export default function page({}: Props) {
+export default function page() {
   return (
     <div className="flex flex-col mx-auto max-w-screen-xl">
       <div className="flex flex-col gap-2 lg:p-0 px-4">
