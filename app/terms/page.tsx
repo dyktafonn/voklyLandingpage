@@ -2,8 +2,6 @@ import { Metadata } from "next";
 import Head from "next/head";
 import React from "react";
 
-type Props = {};
-
 const terms: { label: string; description?: string; paragraphs: string[] }[] = [
   {
     label: "Introduction",
@@ -52,7 +50,7 @@ export const metadata: Metadata = {
   title: "The Fetcher - Terms",
   description: "Connect any API to Monday, without code",
 };
-export default function page({}: Props) {
+export default function page() {
   return (
     <>
       <Head>

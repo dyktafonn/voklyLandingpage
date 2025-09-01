@@ -1,9 +1,7 @@
 import React from "react";
 import CompareTable from "./CompareTable";
 
-type Props = {};
-
-export default function CompareSection({}: Props) {
+export default function CompareSection() {
   return (
     <div className="mx-auto max-w-screen-xl">
       <div className="flex w-full flex-col gap-8 items-center justify-center py-12">

@@ -6,9 +6,7 @@ import {
 } from "lucide-react";
 import React from "react";
 
-type Props = {};
-
-export default function HeroFeatures({}: Props) {
+export default function HeroFeatures() {
   const features: { label: string; icon: React.ReactNode }[] = [
     {
       icon: <Play className="size-4 text-primary/70" />,

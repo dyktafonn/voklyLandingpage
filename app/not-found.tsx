@@ -3,9 +3,7 @@ import Link from "next/link";
 
 import React from "react";
 
-type Props = {};
-
-export default function NotFound({}: Props) {
+export default function NotFound() {
   return (
     <div className="flex w-full h-full  flex-col flex-1 ">
       <div className="flex-1 flex items-center w-full h-full justify-center flex-col">

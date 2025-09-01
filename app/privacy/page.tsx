@@ -1,8 +1,6 @@
 import { Metadata } from "next";
 import React from "react";
 
-type Props = {};
-
 const privacyPolicy: {
   label: string;
   description?: string;
@@ -109,7 +107,7 @@ export const metadata: Metadata = {
   title: "The Fetcher - Privacy",
   description: "Connect any API to Monday, without code",
 };
-export default function page({}: Props) {
+export default function page() {
   return (
     <div className="flex flex-col mx-auto max-w-screen-xl gap-2 lg:p-0 px-4">
       <p className="w-full text-center text-6xl font-bold">Privacy Policy</p>

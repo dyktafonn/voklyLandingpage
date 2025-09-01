@@ -5,9 +5,8 @@ import FeaturesCards from "./FeaturesCards";
 import Image from "next/image";
 import Integrations from "@/public/integrations.svg";
 import CTAButton from "../cta-button";
-type Props = {};
 
-export default function Features({}: Props) {
+export default function Features() {
   return (
     <div className="w-full bg-primary/15">
       <div className="h-full mx-auto w-11/12 max-w-screen-xl flex ">
