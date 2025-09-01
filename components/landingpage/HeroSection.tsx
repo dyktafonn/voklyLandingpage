@@ -3,6 +3,7 @@ import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
 import HeroFeatures from "./heroFeatures";
 import CTAButton from "../cta-button";
+import VideoPlayer from "../video-player";
 
 export default function HeroSection() {
   return (
@@ -31,7 +32,7 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="w-full rounded-xl h-full aspect-video bg-red-300 "></div>
+            <VideoPlayer />
           </div>
         </div>
       </div>
