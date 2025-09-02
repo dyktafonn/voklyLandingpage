@@ -10,9 +10,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-type Props = {};
-
-export default function ComparePricing({}: Props) {
+export default function ComparePricing() {
   const max = 6;
   const skipInterval = 1;
   const ticks = [1000, 10000, 100000, 300000, 1000000, 4000000, 8000000];
