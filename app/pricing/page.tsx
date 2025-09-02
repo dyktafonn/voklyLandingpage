@@ -1,4 +1,5 @@
 import FAQ from "@/components/faq";
+import ComparePricing from "@/components/pricingpage/comparePricing";
 import { Pricing } from "@/components/pricingpage/pricingCards";
 import { Metadata } from "next";
 import React from "react";
@@ -10,6 +11,8 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <div className="">
+      <ComparePricing />
+
       <Pricing />
       <FAQ />
     </div>
