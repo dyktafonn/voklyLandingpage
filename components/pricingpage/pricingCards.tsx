@@ -65,8 +65,8 @@ const plans: {
     id: "pro",
     name: "Pro",
     price: {
-      monthly: 79,
-      yearly: 49,
+      monthly: 49,
+      yearly: 30,
     },
 
     features: [
@@ -84,7 +84,7 @@ const plans: {
     name: "Business",
     price: {
       monthly: 99,
-      yearly: 79,
+      yearly: 75,
     },
 
     features: [
@@ -100,8 +100,8 @@ const plans: {
     id: "business_plus",
     name: "Business+",
     price: {
-      monthly: 199,
-      yearly: 115,
+      monthly: 149,
+      yearly: 112,
     },
 
     features: [
@@ -116,7 +116,7 @@ const plans: {
 ];
 
 export const Pricing = () => {
-  const [frequency, setFrequency] = useState<string>("monthly");
+  const [frequency, setFrequency] = useState<string>("yearly");
 
   return (
     <div className="flex flex-col gap-16 px-8 py-24 text-center @container h-full ">
