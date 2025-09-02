@@ -4,6 +4,7 @@ import Image from "next/image";
 import CTAButton from "@/components/cta-button";
 import { ArrowRight } from "lucide-react";
 import { Metadata } from "next";
+import VideoPlayer from "@/components/video-player";
 export const metadata: Metadata = {
   title: "The Fetcher - Rest API",
   description: "Connect any API to Monday, without code",
@@ -22,11 +23,12 @@ export default function page() {
             apps with The Fetcher.
           </p>
           <CTAButton className="lg:self-start w-full lg:w-fit">
-            Try for free <ArrowRight />
+            Get your discount <ArrowRight />
           </CTAButton>
         </div>
         <Image src={Integrations} alt="integration"></Image>
       </div>
+      <VideoPlayer />
     </div>
   );
 }

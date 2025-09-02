@@ -61,7 +61,7 @@ export default function Footer() {
             Start importing data in minutes with The Fetcher
           </h4>
           <CTAButton className="lg:w-fit w-full">
-            Try for free <ArrowRight />
+            Get your discount <ArrowRight />
           </CTAButton>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Footer() {
                 </Link>
               </div>
               <CTAButton>
-                Get The Fetcher <ArrowRight />
+                Get your discount <ArrowRight />
               </CTAButton>
             </div>
 

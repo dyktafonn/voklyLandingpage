@@ -89,7 +89,7 @@ export default function Header() {
           </Link>
         </div>
         <CTAButton className="max-lg:hidden">
-          Try for free <ArrowRight />
+          Get your discount <ArrowRight />
         </CTAButton>
         <Button
           variant={"ghost"}
@@ -121,7 +121,7 @@ export default function Header() {
             Pricing
           </Link>
           <CTAButton className="">
-            Try for free <ArrowRight />
+            Get your discount <ArrowRight />
           </CTAButton>
         </div>
       )}

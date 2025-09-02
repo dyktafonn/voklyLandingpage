@@ -26,7 +26,7 @@ export default function HeroSection() {
             </p>
             <div className="flex flex-col lg:flex-row gap-4 items-center">
               <CTAButton className="w-fit">
-                Try for free <ArrowRight />
+                Get your discount <ArrowRight />
               </CTAButton>
               <HeroFeatures></HeroFeatures>
             </div>

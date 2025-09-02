@@ -1,7 +1,7 @@
 "use client";
 import NumberFlow from "@number-flow/react";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 import { ArrowRight, BadgeCheck, BadgeX } from "lucide-react";
 import { useState } from "react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Link from "next/link";
 
 const plans: {
   id: string;
@@ -205,13 +206,18 @@ export const Pricing = () => {
                 ))}
               </CardContent>
               <CardFooter>
-                <Button
-                  className="w-full"
-                  variant={plan.popular ? "default" : "secondary"}
+                <Link
+                  className={cn(
+                    buttonVariants({
+                      variant: plan.popular ? "default" : "secondary",
+                    }),
+                    " w-full"
+                  )}
+                  href={"https://app.youform.com/forms/y2vx5ucm"}
                 >
                   {plan.cta}
                   <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                </Link>
               </CardFooter>
             </Card>
           ))}

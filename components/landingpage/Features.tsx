@@ -28,7 +28,7 @@ export default function Features() {
                 and flexible data transformations.
               </p>
               <CTAButton className="lg:w-fit">
-                Try for free <ArrowRight />
+                Get your discount <ArrowRight />
               </CTAButton>
             </div>
           </div>

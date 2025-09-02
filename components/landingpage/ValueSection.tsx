@@ -23,7 +23,7 @@ export default function ValueSection() {
               a clean, organized location.
             </p>
             <CTAButton className="lg:w-fit">
-              Try The Fetcher for free <ArrowRight />
+              Get your discount <ArrowRight />
             </CTAButton>
           </div>
           <Values></Values>
