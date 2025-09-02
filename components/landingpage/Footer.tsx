@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "@/public/Logo-white.svg";
 import CTAButton from "../cta-button";
+import EarlyAccess from "./EarlyAcces";
 
 const footerLinks: {
   label: string;
@@ -52,7 +53,7 @@ const footerLinks: {
 export default function Footer() {
   return (
     <div className="flex flex-col">
-      <div className="mx-auto max-w-screen-xl">
+      {/* <div className="mx-auto max-w-screen-xl">
         <div className="flex w-full flex-col gap-4 items-center justify-center py-12 max-lg:px-4">
           <h3 className="text-5xl font-semibold text-center lg:text-left">
             Ready to build on Monday?
@@ -64,7 +65,8 @@ export default function Footer() {
             Get your discount <ArrowRight />
           </CTAButton>
         </div>
-      </div>
+      </div> */}
+      <EarlyAccess />
 
       <footer className="bg-[#1e1a08]">
         <div className="mx-auto max-w-screen-xl text-lilac-bush-50">

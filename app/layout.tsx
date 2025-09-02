@@ -6,6 +6,7 @@ import Header from "@/components/landingpage/Header";
 import { PostHogProvider } from "@/components/providers/PosthogProvider";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import EarlyAccess from "@/components/landingpage/EarlyAcces";
 
 const geistSans = Roboto({
   variable: "--font-sans",
@@ -51,6 +52,8 @@ export default function RootLayout({
             </p>
           </div>
           <Header />
+          <EarlyAccess />
+
           <main className="min-h-screen flex flex-col">{children}</main>
           <Footer />
         </PostHogProvider>

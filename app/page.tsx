@@ -1,4 +1,5 @@
 import CompareSection from "@/components/landingpage/CompareSection";
+
 import Features from "@/components/landingpage/Features";
 import HeroSection from "@/components/landingpage/HeroSection";
 import ValueSection from "@/components/landingpage/ValueSection";
