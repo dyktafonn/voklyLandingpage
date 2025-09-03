@@ -10,7 +10,7 @@ export default function EarlyAccess() {
         </h1>
         <p className="text-xl max-md:text-center">
           Join our waitlist today and be the first to connect any API to
-          Monday.com. Early adopters get 15% off for life and priority
+          monday.com. Early adopters get 15% off for life and priority
           onboarding.
         </p>
         <CTAButton>Join the waitlist now</CTAButton>

@@ -9,24 +9,24 @@ const privacyPolicy: {
   {
     label: "Introduction",
     paragraphs: [
-      "This Privacy Policy explains how Vokly – The Fetcher (“we”, “our”, “us”) collects, uses, and protects your personal data when you use our application inside Monday.com (“Service”).",
-      "By installing or using the Service within your Monday.com account, you agree to the practices described in this Privacy Policy.",
+      "This Privacy Policy explains how Vokly – The Fetcher (“we”, “our”, “us”) collects, uses, and protects your personal data when you use our application inside monday.com (“Service”).",
+      "By installing or using the Service within your monday.com account, you agree to the practices described in this Privacy Policy.",
     ],
   },
   {
     label: "Information We Collect",
     paragraphs: [
-      "Account Information: We receive your basic account details (such as user ID, workspace ID, email) from Monday.com when you authorize our app.",
+      "Account Information: We receive your basic account details (such as user ID, workspace ID, email) from monday.com when you authorize our app.",
       "API Credentials: If you connect external APIs, your API keys are encrypted and securely stored in our database (Supabase).",
       "Usage Data: We collect metadata about your requests, including frequency, scheduling options, and responses, to enforce subscription limits and improve performance.",
-      "Billing Information: When you subscribe to a paid plan, payment details are processed by Monday.com or our payment provider. We do not directly store full payment details.",
+      "Billing Information: When you subscribe to a paid plan, payment details are processed by monday.com or our payment provider. We do not directly store full payment details.",
       "Technical Data: We may collect IP address, browser type, and error logs for security and analytics purposes.",
     ],
   },
   {
     label: "How We Use Your Information",
     paragraphs: [
-      "To provide and operate the Service within Monday.com.",
+      "To provide and operate the Service within monday.com.",
       "To store and manage your API requests, schedules, and saved configurations.",
       "To track subscription usage (runs, responses, saved requests) and enforce plan limits.",
       "To send important notifications, such as errors, usage warnings, or billing updates.",
@@ -37,8 +37,8 @@ const privacyPolicy: {
     label: "Payments and Subscriptions",
     paragraphs: [
       "Our Service offers both free and paid subscription plans.",
-      "Payments are handled securely through Monday.com’s marketplace or approved providers.",
-      "We do not store your payment card information. Billing records are managed through Monday.com’s payment infrastructure.",
+      "Payments are handled securely through monday.com’s marketplace or approved providers.",
+      "We do not store your payment card information. Billing records are managed through monday.com’s payment infrastructure.",
       "Usage limits and pricing are described on our website and marketplace listing.",
     ],
   },
@@ -62,16 +62,16 @@ const privacyPolicy: {
     label: "User Rights",
     paragraphs: [
       "You may access, update, or request deletion of your data at any time by contacting our support.",
-      "You may cancel your subscription within Monday.com, which will also stop future billing.",
+      "You may cancel your subscription within monday.com, which will also stop future billing.",
       "If you are located in the EU or other jurisdictions, you may have additional rights such as data portability or objection to processing.",
     ],
   },
   {
     label: "Third-Party Integrations",
     paragraphs: [
-      "Our Service integrates with Monday.com and external APIs that you connect.",
+      "Our Service integrates with monday.com and external APIs that you connect.",
       "We are not responsible for the privacy practices of third-party APIs you choose to connect to.",
-      "You should review the privacy policies of Monday.com and any external services before using them with our Service.",
+      "You should review the privacy policies of monday.com and any external services before using them with our Service.",
     ],
   },
   {
@@ -92,7 +92,7 @@ const privacyPolicy: {
     label: "Changes to This Policy",
     paragraphs: [
       "We may update this Privacy Policy to reflect changes in technology, legal requirements, or our services.",
-      "If significant updates are made, we will notify you through Monday.com or by email.",
+      "If significant updates are made, we will notify you through monday.com or by email.",
       "Continued use of the Service after changes means acceptance of the updated Privacy Policy.",
     ],
   },
@@ -105,7 +105,7 @@ const privacyPolicy: {
 ];
 export const metadata: Metadata = {
   title: "The Fetcher - Privacy",
-  description: "Connect any API to Monday, without code",
+  description: "Connect any API to monday, without code",
 };
 export default function page() {
   return (

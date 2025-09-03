@@ -20,7 +20,7 @@ const geistMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "The Fetcher",
-  description: "Connect any API to Monday, without code",
+  description: "Connect any API to monday, without code",
 };
 
 export default function RootLayout({

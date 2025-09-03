@@ -6,7 +6,7 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "The Fetcher - Pricing",
-  description: "Connect any API to Monday, without code",
+  description: "Connect any API to monday, without code",
 };
 export default function page() {
   return (

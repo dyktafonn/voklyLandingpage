@@ -21,18 +21,18 @@ const integrations: {
 ];
 export const metadata: Metadata = {
   title: "The Fetcher - Integrations",
-  description: "Connect any API to Monday, without code",
+  description: "Connect any API to monday, without code",
 };
 export default function page() {
   return (
     <div className="flex flex-col mx-auto max-w-screen-xl min-h-screen">
       <div className="flex flex-col gap-2 h-full">
         <h1 className="w-full text-center text-5xl font-semibold">
-          Monday Integrations
+          monday Integrations
         </h1>
         <p className="w-full text-center text-lg font-semibold text-muted-foreground">
-          Connect Monday to any application or API with The Fetcher&apos;s
-          Monday integrations
+          Connect monday to any application or API with The Fetcher&apos;s
+          monday integrations
         </p>
         <div className="flex gap-2 h-full px-4 lg:px-0">
           <div className="grid lg:grid-cols-3 grid-cols-1 w-full h-full">

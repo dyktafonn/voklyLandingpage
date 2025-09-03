@@ -56,7 +56,7 @@ export default function Footer() {
       {/* <div className="mx-auto max-w-screen-xl">
         <div className="flex w-full flex-col gap-4 items-center justify-center py-12 max-lg:px-4">
           <h3 className="text-5xl font-semibold text-center lg:text-left">
-            Ready to build on Monday?
+            Ready to build on monday?
           </h3>
           <h4 className="text-xl text-center lg:text-left">
             Start importing data in minutes with The Fetcher

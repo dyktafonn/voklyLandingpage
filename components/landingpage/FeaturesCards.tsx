@@ -12,8 +12,8 @@ import React from "react";
 
 const features: { title: string; description: string; icon: LucideIcon }[] = [
   {
-    title: "Import data to Monday",
-    description: "Import data from any API directly into Monday",
+    title: "Import data to monday",
+    description: "Import data from any API directly into monday",
     icon: Download,
   },
   {
@@ -29,7 +29,7 @@ const features: { title: string; description: string; icon: LucideIcon }[] = [
   },
   {
     title: "Sync data",
-    description: "Keep data synced between Monday and another application",
+    description: "Keep data synced between monday and another application",
     icon: RefreshCcw,
   },
   {

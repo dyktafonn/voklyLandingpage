@@ -8,7 +8,7 @@ export default function page() {
           Blog - The Fetcher
         </p>
         <p className="w-full text-center text-muted-foreground">
-          Learn to connect Monday to other applications with no-code.
+          Learn to connect monday to other applications with no-code.
         </p>
       </div>
     </div>

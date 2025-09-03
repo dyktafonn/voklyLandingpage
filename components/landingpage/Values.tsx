@@ -15,7 +15,7 @@ import React from "react";
 
 const values: { title: string; description: string; icon: LucideIcon }[] = [
   {
-    title: "Your data + Monday",
+    title: "Your data + monday",
     description: "Bring your existing data from any application with an API",
     icon: Database,
   },
@@ -40,13 +40,13 @@ const values: { title: string; description: string; icon: LucideIcon }[] = [
   {
     title: "No-code and low-code backend",
     description:
-      "Bring your data into Monday and power your no-code or low-code app",
+      "Bring your data into monday and power your no-code or low-code app",
     icon: CodeXml,
   },
   {
     title: "Streamline your operations",
     description:
-      "Fewer tools and databases to manage. Run your product from inside Monday",
+      "Fewer tools and databases to manage. Run your product from inside monday",
     icon: ArrowRightLeft,
   },
 ];

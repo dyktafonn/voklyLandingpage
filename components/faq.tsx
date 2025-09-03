@@ -15,7 +15,7 @@ const faq: { question: string; answer: string }[] = [
   {
     question: "What counts as response fields?",
     answer:
-      "Response records are the individual data items created when The Fetcher transforms an API response for Monday. Each item in the transformed response counts as one record, even if it doesn't change any data in your Monday board. For example, 100 items from an API would count as 100 response records.",
+      "Response records are the individual data items created when The Fetcher transforms an API response for monday. Each item in the transformed response counts as one record, even if it doesn't change any data in your monday board. For example, 100 items from an API would count as 100 response records.",
   },
   {
     question: "What happens if I exceed my plan limits?",

@@ -16,15 +16,15 @@ export default function Features() {
 
             <div className="flex flex-col gap-4 flex-1">
               <h2 className="text-5xl font-bold lg:text-left text-center">
-                Simplify your Monday <br />
+                Simplify your monday <br />
                 <span className="text-primary">data management</span>
               </h2>
               <p className="text-xl lg:text-left text-center">
-                The Fetcher bridges the gap between Monday and your external
+                The Fetcher bridges the gap between monday and your external
                 data.
               </p>
               <p className="text-xl lg:text-left text-center">
-                Add a new level to your Monday boards with reliable data imports
+                Add a new level to your monday boards with reliable data imports
                 and flexible data transformations.
               </p>
               <CTAButton className="lg:w-fit">

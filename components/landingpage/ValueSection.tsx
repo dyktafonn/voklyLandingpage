@@ -11,11 +11,11 @@ export default function ValueSection() {
         <div className="lg:grid lg:grid-cols-2 flex flex-col items-center gap-8 py-12">
           <div className="flex flex-col gap-4 flex-1">
             <h2 className="text-5xl font-bold lg:text-left text-center">
-              Use Monday as your <br />
+              Use monday as your <br />
               <span className="text-primary">centralized database</span>
             </h2>
             <p className="text-xl lg:text-left text-center">
-              Convert Monday boards to the central hub for all your business
+              Convert monday boards to the central hub for all your business
               data.
             </p>
             <p className="text-xl lg:text-left text-center">

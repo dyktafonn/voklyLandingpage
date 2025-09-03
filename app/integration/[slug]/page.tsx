@@ -12,7 +12,7 @@ import Step3 from "@/public/rest-api/step3.png";
 
 export const metadata: Metadata = {
   title: "The Fetcher - Rest API",
-  description: "Connect any API to Monday, without code",
+  description: "Connect any API to monday, without code",
 };
 export default function page() {
   return (
@@ -20,11 +20,11 @@ export default function page() {
       <div className="grid grid-cols-1 lg:grid-cols-2 px-4 lg:p-0">
         <div className="flex flex-col gap-4 items-center justify-center">
           <h1 className="text-6xl font-semibold text-center lg:text-left">
-            Monday & <span className="text-primary">REST API</span> integration
+            monday & <span className="text-primary">REST API</span> integration
           </h1>
           <p className="text-center lg:text-left">
             Import data from any REST API using a simple no-code API
-            integration. Connect Monday to any REST API and thousands of other
+            integration. Connect monday to any REST API and thousands of other
             apps with The Fetcher.
           </p>
           <CTAButton className="lg:self-start w-full lg:w-fit">
@@ -37,11 +37,11 @@ export default function page() {
       <div className="flex flex-col items-center justify-center gap-4">
         <h2 className="text-6xl font-semibold text-center  ">
           The no-code solution for connecting{" "}
-          <span className="text-primary"> any REST API</span> to Monday.com
+          <span className="text-primary"> any REST API</span> to monday.com
         </h2>
         <p className="text-center text-xl">
           It takes just 3 simple steps to get up and running with The Fetcher’s
-          no-code imports into Monday
+          no-code imports into monday
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 w-full self-start items-center gap-4">
           <div className="flex flex-col gap-2">
@@ -49,10 +49,10 @@ export default function page() {
               Step 1
             </Badge>
             <h3 className="text-2xl font-semibold">
-              Connect Monday to any REST API
+              Connect monday to any REST API
             </h3>
             <p className="text-lg ">
-              Create a custom request to connect Monday to any REST API or
+              Create a custom request to connect monday to any REST API or
               remote file. Enter the request details like URL, method, and body
               to get the data you need. Set up authentication if needed.
             </p>
@@ -69,7 +69,7 @@ export default function page() {
             <h3 className="text-2xl font-semibold">Map the fields</h3>
             <p className="text-lg ">
               Select which REST API data fields you want to import and map them
-              to your existing Monday fields. Choose how new data should merge
+              to your existing monday fields. Choose how new data should merge
               with existing records in your board.
             </p>
           </div>
@@ -83,10 +83,10 @@ export default function page() {
               Step 3
             </Badge>
             <h3 className="text-2xl font-semibold">
-              Automate your Monday REST API sync
+              Automate your monday REST API sync
             </h3>
             <p className="text-lg ">
-              Keep your Monday data fresh by scheduling automatic updates at any
+              Keep your monday data fresh by scheduling automatic updates at any
               interval.
             </p>
           </div>

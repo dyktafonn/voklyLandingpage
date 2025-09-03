@@ -23,7 +23,7 @@ const terms: { label: string; description?: string; paragraphs: string[] }[] = [
     paragraphs: [
       "connect to external APIs,",
       "fetch and schedule requests,",
-      "store and manage request results inside Monday.com,",
+      "store and manage request results inside monday.com,",
       "save API keys (encrypted in our database),",
       "receive notifications about errors and limits.",
     ],
@@ -48,7 +48,7 @@ const terms: { label: string; description?: string; paragraphs: string[] }[] = [
 ];
 export const metadata: Metadata = {
   title: "The Fetcher - Terms",
-  description: "Connect any API to Monday, without code",
+  description: "Connect any API to monday, without code",
 };
 export default function page() {
   return (

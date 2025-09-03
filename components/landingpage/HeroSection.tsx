@@ -15,14 +15,14 @@ export default function HeroSection() {
         <div className="lg:grid lg:grid-cols-2 lg:items-center gap-8 py-12 flex flex-col">
           <div className="flex flex-col gap-4 flex-1">
             <h1 className="text-5xl font-bold max-md:text-center">
-              Connect <span className="text-primary">any API</span> to Monday,
+              Connect <span className="text-primary">any API</span> to monday,
               without code
             </h1>
             <p className="text-xl max-md:text-center">
               The Fetcher is the{" "}
               <span className="text-primary">no-code solution </span> for
-              importing API data into Monday. Connect to any REST API with a
-              simple interface, right inside Monday.
+              importing API data into monday. Connect to any REST API with a
+              simple interface, right inside monday.
             </p>
             <div className="flex flex-col lg:flex-row gap-4 items-center">
               <CTAButton className="w-fit">
