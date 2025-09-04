@@ -30,7 +30,9 @@ export default function page() {
         <VideoPlayer />
       </div>
       <div className="flex flex-col items-center gap-4">
-        <p className="uppercase text-4xl font-black">How to use The Fetcher</p>
+        <p className="uppercase text-4xl font-black text-center">
+          How to use The Fetcher
+        </p>
         <p className="text-xl ">
           You can read our docs{" "}
           <Link
