@@ -7,10 +7,12 @@ import React from "react";
 export default function page() {
   return (
     <div className="z-10  mx-auto w-11/12 max-w-screen-xl min-h-screen flex flex-col py-24 gap-8">
-      <div className="flex flex-col lg:flex-row items-center">
+      <div className="flex flex-col lg:flex-row items-center gap-4">
         <div className="space-y-4">
-          <p className="text-4xl font-semibold">The Fetcher Help Center</p>
-          <p className="text-xl">
+          <p className="text-4xl font-semibold max-lg:text-center">
+            The Fetcher Help Center
+          </p>
+          <p className="text-xl max-lg:text-center">
             Welcome to The Fetcher help center! We&apos;re here to answer your
             questions. Can&apos;t find what you&apos;re looking for? Send our
             support team a note at{" "}
