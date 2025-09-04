@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
+
 import Footer from "@/components/landingpage/Footer";
 import Header from "@/components/landingpage/Header";
 import { PostHogProvider } from "@/components/providers/PosthogProvider";

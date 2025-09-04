@@ -36,6 +36,7 @@ export default function page() {
           </p>
         </CardContent>
       </Card>
+      <iframe src="https://help.vokly.pl/index"></iframe>
     </div>
   );
 }

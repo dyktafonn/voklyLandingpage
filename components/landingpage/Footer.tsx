@@ -15,6 +15,10 @@ const footerLinks: {
     label: "Resources",
     links: [
       {
+        label: "Help Center",
+        link: "https://help.vokly.pl",
+      },
+      {
         label: "Contact",
         link: "/contact",
       },
