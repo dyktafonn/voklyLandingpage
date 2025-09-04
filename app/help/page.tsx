@@ -4,18 +4,16 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 
-type Props = {};
-
-export default function page({}: Props) {
+export default function page() {
   return (
     <div className="z-10  mx-auto w-11/12 max-w-screen-xl min-h-screen flex flex-col py-24 gap-8">
       <div className="flex flex-col lg:flex-row items-center">
         <div className="space-y-4">
           <p className="text-4xl font-semibold">The Fetcher Help Center</p>
           <p className="text-xl">
-            Welcome to The Fetcher help center! We're here to answer your
-            questions. Can't find what you're looking for? Send our support team
-            a note at{" "}
+            Welcome to The Fetcher help center! We&apos;re here to answer your
+            questions. Can&apos;t find what you&apos;re looking for? Send our
+            support team a note at{" "}
             <Link
               className={cn(
                 buttonVariants({ variant: "link" }),
