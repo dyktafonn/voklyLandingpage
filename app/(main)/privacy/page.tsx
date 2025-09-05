@@ -97,9 +97,9 @@ const privacyPolicy: {
     ],
   },
   {
-    label: "Contact Us",
+    label: "Feedback",
     paragraphs: [
-      "If you have questions about this Privacy Policy or how we handle your data, please contact us: Email: help@vokly.pl",
+      "If you have any errors pleas report this here: https://insigh.to/b/the-fetcher-feedback",
     ],
   },
 ];

@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
-import { ArrowRight, Mail, Twitter, Youtube } from "lucide-react";
+import { ArrowRight, ChevronUp, Mail, Twitter, Youtube } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "@/public/Logo-white.svg";
@@ -81,8 +81,8 @@ export default function Footer() {
               </Link>
               <div className="flex gap-4 lg:gap-2">
                 <p>Get in touch with us</p>
-                <Link href={"mailto:help@vokly.pl"}>
-                  <Mail />
+                <Link href={"https://insigh.to/b/the-fetcher-feedback"}>
+                  <ChevronUp />
                 </Link>
                 <Link href={"https://x.com/dyktafon1"}>
                   <Twitter />

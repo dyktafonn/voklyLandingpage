@@ -15,15 +15,15 @@ export default function page() {
           <p className="text-xl max-lg:text-center">
             Welcome to The Fetcher help center! We&apos;re here to answer your
             questions. Can&apos;t find what you&apos;re looking for? Send our
-            support team a note at{" "}
+            support team a note{" "}
             <Link
               className={cn(
                 buttonVariants({ variant: "link" }),
                 "p-0 h-fit text-xl"
               )}
-              href={"mailto:help@vokly.pl"}
+              href={"https://insigh.to/b/the-fetcher-feedback"}
             >
-              help@vokly.pl
+              here
             </Link>
           </p>
         </div>

@@ -1,7 +1,7 @@
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import { Mail } from "lucide-react";
+import { ChevronUp, Mail } from "lucide-react";
 import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
@@ -17,13 +17,13 @@ export default function page() {
       <Card className="w-full">
         <CardContent>
           <div className="flex gap-2 items-center">
-            <Mail className="size-12 text-primary" />
-            <p className="text-2xl font-semibold">Email support</p>
+            <ChevronUp className="size-12 text-primary" />
+            <p className="text-2xl font-semibold">Feedback</p>
           </div>
           <p className="text-lg">
-            The best way to get in touch with us is our email:{" "}
+            Pleas report any error&apos;:{" "}
             <Link
-              href={"mailto:help@vokly.pl"}
+              href={"https://insigh.to/b/the-fetcher-feedback"}
               className={cn(
                 buttonVariants({
                   variant: "link",
@@ -31,12 +31,11 @@ export default function page() {
                 "p-0 text-lg h-fit"
               )}
             >
-              help@vokly.pl
+              here
             </Link>
           </p>
         </CardContent>
       </Card>
-      <iframe src="https://help.vokly.pl/index"></iframe>
     </div>
   );
 }
