@@ -75,6 +75,14 @@ const privacyPolicy: {
     ],
   },
   {
+    label:
+      "Our app communicates with the following 3rd party domains/products:",
+    paragraphs: [
+      "Supabase – core functionality: storing user data, session tokens, request configurations..",
+    ],
+  },
+
+  {
     label: "Data Retention",
     paragraphs: [
       "We retain data related to your account and API requests as long as your subscription is active.",
